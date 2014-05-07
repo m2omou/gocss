@@ -5,7 +5,7 @@
 ## Created: Mar mai  6 16:37:24 2014 (-0700)
 ## 
 
-NAME=		parserCSS
+NAME=		gocss
 
 BIN=		go
 
