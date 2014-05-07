@@ -17,17 +17,13 @@ func usage() {
 }
 
 func main() {
-	
 	if (len(os.Args) <= 1) {
-		usage()
-		return
+		usage(); return
 	}
 	// Example of use
 	css := parserCSS(os.Args[1])
 	// Show css selectors & properties
 	showCSS(css)
-	
-
 }
 
 

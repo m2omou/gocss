@@ -12,19 +12,14 @@ const (
 	Attribute
 )
 
-
-// CSS property, example: 
-// Name => 'color' 
-// Value => 'white'
+// e.g: "color: white;" Name => 'color', Value => 'white'
 type property struct {
 	Name string
 	Value string
 }
 
-// CSS selector, example: 
-// Name => '.container'
-// Properties => { color: white, float: left, width: 42 }
-// Type => Class || Id || Element || ...
+// e.g ".container { color: white }" Name => '.container'
+// Properties => { Name : 'color', Value : 'white' }, Type => Class
 type selector struct {
 	Name string
 	Properties []property
