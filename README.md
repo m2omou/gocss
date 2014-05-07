@@ -6,25 +6,50 @@ A simple CSS parser written in GO, that provides a way to parse CSS selectors an
 Installation
 ============
 
-    go get github.com/mouradsabour/parser-css/src
+```cmd
+    $>go get github.com/m2omou/parser-css/src
+```
 
-Example
+```go
+    import "github.com/m2omou/parser-css/src"
+```
+Code examples
 ============
 
-Property:
+####Type:####
+
+The different type of selector, 'All' stand for the '*' css selector
+
+```go
+const ( 
+	Class = 1
+	Id
+	All
+	Element
+	Attribute
+)
+```
+
+####Property:####
+
+e.g: "color: white;"
+
 ```go
 type property struct {
-        Name string
-        Value string
+        Name string 		// color
+        Value string 		// white
 }
 ```
 
-Selector:
+####Selector:####
+
+e.g ".container { color: white, float: left }"
+
 ```go
 type selector struct {
-        Name string
-        Properties []property
-        Type int
+        Name string             // '.container'
+        Properties []property   // [ { Name : 'color', Value : 'white' }, { Name : 'float', Value : 'left'} ]
+        Type int                // Class
 }
 ```
 
