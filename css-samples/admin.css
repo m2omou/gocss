@@ -1,0 +1,54 @@
+body {
+	font-family: 'Myriad Pro', 'Calibri', 'Verdana', 'Arial';
+}
+
+.panel {
+	margin-top:20px;
+	border-radius:10px;
+	text-align:center;
+	background:radial-gradient(#FFF, #8F8F8F);
+	width:33%;
+	margin:auto auto;
+	padding:10px 0px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	-moz-user-select: none;
+}
+
+.btn-success {
+	background-color:#5CB85C;
+	color:#FFF;
+	border-color:#4CAE4C;
+	padding:5px 15px;
+	border-radius:5px;
+}
+
+label {
+	display:block;
+	text-align:inherit;
+}
+
+img {
+	margin-top:1em;
+	border-radius:10px;
+	box-shadow:-5px -5px 6px #000;
+}
+
+input[type=text], input[type=password] {
+	height:25px;
+	width:200px;
+	border-radius:5px;
+}
