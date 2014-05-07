@@ -7,11 +7,11 @@ Installation
 ============
 
 ```cmd
-    $>go get github.com/m2omou/parser-css/src
+$>go get github.com/m2omou/parser-css/src
 ```
 
 ```go
-    import "github.com/m2omou/parser-css/src"
+import "github.com/m2omou/parser-css/src"
 ```
 Code examples
 ============
@@ -133,7 +133,7 @@ Will return the following slice :
 ]
 ```	
 
-	
-	
-	
+License
+=======
+GOCSS Parser Copyright 2014 Mourad Sabour, mourad.sabour[at]gmail.com.
 	
