@@ -1,7 +1,7 @@
-parser-css
+Gocss
 ==========
 
-A simple CSS parser written in GO, that provides a way to parse CSS selectors and properties.
+Gocss is a simple css parser written in GO, that provides a way to parse css selectors and properties.
 
 Installation
 ============
